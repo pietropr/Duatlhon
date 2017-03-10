@@ -1,0 +1,232 @@
+body {
+	background-image:url(../imagens/atletas.jpg);
+	background-size:100%;
+	font-size: 16px;
+	font-family: Verdana, Geneva, sans-serif;
+}
+
+	.txtTitulo{
+		color: #000;
+		text-shadow: #FFF 2px -2px, #FFF -2px 2px, #FFF 2px 2px, #FFF -2px -2px;
+	}
+	
+	h5{
+		color: #F8931D;
+	}	
+	
+#tabela {
+	font-size: 14px;	
+}
+ 	
+		.divCentral {
+			border: 1px solid #F9931D;
+			background-color: #F9931D;
+			border-radius: 25px;
+			margin: 2% 0;
+			width: 475px;
+			height: 225px;	
+		}
+		
+			.divCentral .txtID {
+				width: 250px;
+				height: 20px;
+			}
+			
+						
+			.divCentral h4, p{
+				color: #FFF;
+			}
+		
+		.divCentralB {
+			border: 1px solid #09C;
+			background-color: #09C;
+			border-radius: 25px;
+			margin: 2% 0;
+			width: 475px;
+			height: 225px;
+		}
+		
+			.divCentralB .txtID{
+				width: 250px;
+				height: 20px;
+			}
+			
+			.divCentralB h4, p{
+				color: #FFF;
+			}
+		
+		.divCentralC {
+			border-radius:30px;
+			border: 2px solid #F9931D;
+			background-color: #F9931D;
+			margin: 2% 0;
+			width: 250px;
+			height: 200px;
+		}
+		
+			.divCentralC .divLink{
+				margin: 6% 0;
+			}
+		
+			.divCentralC a {
+				margin: 2% 0;
+				color: #FFF;
+			}
+			
+			.divCentralC a:hover {
+				margin: 2% 0;
+				color: #000000;
+			}
+		
+		.divCentralD {
+			float:left;
+			border: 2px solid #999;
+			margin: 2%;
+			width: 45%;
+			height: auto;
+			
+		}
+		
+			.dir {
+				float: right;
+				border: 2px solid #999;
+				margin: 2%;
+				width: 45%;
+				height: auto;
+			}
+		
+		.divCentralE{
+			border: 2px solid #0099cc;
+			border-radius: 20px;
+			margin: 2% 0;
+			width: 420px;
+			height: 275px;
+			background-color: #0099cc;
+		}
+		
+			.divCentralE #divNomeSis{
+				width: 400px;
+				height: 50px;	
+				margin-top: 5%;
+			}
+							
+				.divCentralE #divNomeSis #lblNomeSis{
+					color: #FFF;
+				}
+		
+			.divCentralE .frmLogin{
+				width: 250px;
+				height: 100px;
+				display: block;
+				margin-top: 4%;
+			}
+				
+				.divCentralE .frmLogin .txtForm{
+					width: 250px;
+					height: 20px;
+					margin-top: 5px;
+					margin-bottom: 10px;
+				}
+				
+				.divCentralE .frmLogin .lblForm{
+					color: #FFF;
+					margin: 15px;
+				}
+				
+				
+				.divCentralF {
+					overflow:scroll;
+					border: 2px solid #999;
+					margin: 2%;
+					width: auto;
+					height: 450px;	
+				}
+				
+				.divCentralG {
+					border: 1px solid #F9931D;
+					background-color: #F9931D;
+					border-radius: 25px;
+					margin: 2% 0;
+					width: 450px;
+					height: 325px;	
+				}
+				
+					.divCentralG .txtLargada{
+						width: 250px;
+						height: 20px;		
+						}
+					
+					.divCentralG #formLargada{
+						margin-top: 10%;
+					}
+				
+		.divCentralMsg{
+			padding-top: 5px;
+			padding-bottom: 5px;
+			border: 1px solid #F9931D;
+			background-color: #F9931D;
+			border-radius: 25px;
+			margin: 2% 0;
+			width: 500px;
+			height: auto;
+		}
+		
+			.divCentralMsg label{
+				color: #FFF;
+			}
+			
+			.divCentralMsg a{
+				text-decoration: none;
+				color: #FFF;
+			}
+			
+			.divCentralMsg a:hover{
+				text-decoration: none;
+				color: #000;
+			}
+
+		#abas {
+			display: block;
+			float: left;
+		}
+			
+	a {
+		text-decoration: none;
+		color: #000;	
+	}
+	
+	a:hover{
+		color: #666;
+	}
+			
+		#btnIniciar, 
+		#btnFinalizar,
+		#btnLargada {
+			padding-bottom: 5%;
+			margin-top: 5px;
+		}
+		
+			#btnIniciar,
+			#btnFinalizar,
+			.btnForm,
+			#btnLargada{
+				color: #000;
+				width: 125px;
+				height: 30px;
+				margin-bottom: 5px;
+			}
+			
+			.btnGeraExcel{
+				color: #000;
+				width: 150px;
+				height: 30px;
+			}
+
+footer{
+	display: block;
+	max-width: 1170px;
+	width: 100%;
+	margin-top: 120px !important;
+	margin: 20px auto;
+	bottom: 0;
+}
